@@ -1,0 +1,132 @@
+# API: https://www.gitignore.io/api/xilinxise,windows,linux,osx
+
+### Custom ###
+
+# ISim
+isim/
+xilinxsim.ini
+fuse.log
+isim.log
+fuseRelaunch.cmd
+isim.cmd
+*_isim_beh.*
+
+# Created by https://www.gitignore.io
+
+### XilinxISE ###
+# intermediate build files
+*.bgn
+*.bit
+*.bld
+*.cmd_log
+*.drc
+*.ll
+*.lso
+*.msd
+*.msk
+*.ncd
+*.ngc
+*.ngd
+*.ngr
+*.pad
+*.par
+*.pcf
+*.prj
+*.ptwx
+*.rbb
+*.rbd
+*.stx
+*.syr
+*.twr
+*.twx
+*.unroutes
+*.ut
+*.xpi
+*.xst
+*_bitgen.xwbt
+*_envsettings.html
+*_map.map
+*_map.mrp
+*_map.ngm
+*_map.xrpt
+*_ngdbuild.xrpt
+*_pad.csv
+*_pad.txt
+*_par.xrpt
+*_summary.html
+*_summary.xml
+*_usage.xml
+*_xst.xrpt
+
+# project-wide generated files
+*.gise
+par_usage_statistics.html
+usage_statistics_webtalk.html
+webtalk.log
+webtalk_pn.xml
+
+# generated folders
+iseconfig/
+xlnx_auto_0_xdb/
+xst/
+_ngo/
+_xmsgs/
+
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+### Linux ###
+*~
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

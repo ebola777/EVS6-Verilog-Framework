@@ -1,0 +1,110 @@
+# Output devices
+
+## LED
+
+NET "led<0>" LOC = "K4"; # Signal name = LED0
+NET "led<1>" LOC = "K3"; # Signal name = LED1
+NET "led<2>" LOC = "L5"; # Signal name = LED2
+NET "led<3>" LOC = "K5"; # Signal name = LED3
+NET "led<4>" LOC = "H4"; # Signal name = LED4
+NET "led<5>" LOC = "H3"; # Signal name = LED5
+NET "led<6>" LOC = "L7"; # Signal name = LED6
+NET "led<7>" LOC = "K6"; # Signal name = LED7
+NET "led<8>" LOC = "G3"; # Signal name = LED8
+NET "led<9>" LOC = "G1"; # Signal name = LED9
+NET "led<10>" LOC = "J7"; # Signal name = LED10
+NET "led<11>" LOC = "J6"; # Signal name = LED11
+NET "led<12>" LOC = "F2"; # Signal name = LED12
+NET "led<13>" LOC = "F1"; # Signal name = LED13
+NET "led<14>" LOC = "H6"; # Signal name = LED14
+NET "led<15>" LOC = "H5"; # Signal name = LED15
+
+## Fourteen-segment display
+
+NET "fsd_segment<0>" LOC = "P6"; # Signal name = LEDA_CA
+NET "fsd_segment<1>" LOC = "N4"; # Signal name = LEDA_CB
+NET "fsd_segment<2>" LOC = "V5"; # Signal name = LEDA_CC
+NET "fsd_segment<3>" LOC = "T5"; # Signal name = LEDA_CD
+NET "fsd_segment<4>" LOC = "U7"; # Signal name = LEDA_CE
+NET "fsd_segment<5>" LOC = "R3"; # Signal name = LEDA_CF
+NET "fsd_segment<6>" LOC = "N5"; # Signal name = LEDA_CG1
+NET "fsd_segment<7>" LOC = "R5"; # Signal name = LEDA_CG2
+NET "fsd_segment<8>" LOC = "T3"; # Signal name = LEDA_CH
+NET "fsd_segment<9>" LOC = "T4"; # Signal name = LEDA_CJ
+NET "fsd_segment<10>" LOC = "V4"; # Signal name = LEDA_CK
+NET "fsd_segment<11>" LOC = "V7"; # Signal name = LEDA_CL
+NET "fsd_segment<12>" LOC = "R7"; # Signal name = LEDA_CM
+NET "fsd_segment<13>" LOC = "T7"; # Signal name = LEDA_CN
+NET "fsd_segment<14>" LOC = "U5"; # Signal name = LEDA_DP
+
+NET "fsd_digit<0>" LOC = "T6"; # Signal name = LEDA_B1
+NET "fsd_digit<1>" LOC = "V6"; # Signal name = LEDA_B2
+NET "fsd_digit<2>" LOC = "U8"; # Signal name = LEDA_B3
+NET "fsd_digit<3>" LOC = "V8"; # Signal name = LEDA_B4
+
+## LCD
+
+NET "lcd_data<0>" LOC = "F6"; # Signal name = LCD_D0
+NET "lcd_data<1>" LOC = "D3"; # Signal name = LCD_D1
+NET "lcd_data<2>" LOC = "E4"; # Signal name = LCD_D2
+NET "lcd_data<3>" LOC = "G6"; # Signal name = LCD_D3
+NET "lcd_data<4>" LOC = "H7"; # Signal name = LCD_D4
+NET "lcd_data<5>" LOC = "D1"; # Signal name = LCD_D5
+NET "lcd_data<6>" LOC = "D2"; # Signal name = LCD_D6
+NET "lcd_data<7>" LOC = "F3"; # Signal name = LCD_D7
+NET "lcd_cs<0>" LOC = "F4"; # Signal name = LCD_CS1
+NET "lcd_cs<1>" LOC = "E1"; # Signal name = LCD_CS2
+NET "lcd_io" LOC = "C1"; # Signal name = LCD_I/O
+NET "lcd_wr" LOC = "C2"; # Signal name = LCD_W/R
+NET "lcd_en" LOC = "F5"; # Signal name = LCD_EN
+NET "lcd_reset_n" LOC = "E3"; # Signal name = LCD_RST
+
+## Audio
+
+NET "audio_data" LOC = "L16"; # Signal name = AF_OUT_DATA
+NET "audio_ws" LOC = "L15"; # Signal name = AF_OUT_WS
+NET "audio_bck" LOC = "K16"; # Signal name = AF_OUT_BCK
+NET "audio_clk" LOC = "H17"; # Signal name = AF_OUT_CLK
+NET "audio_appsel" LOC = "H18"; # Signal name = APPSEL
+
+## Keyboard
+
+NET "keyboard_row<0>" LOC = "L3"; # Signal name = KP5
+NET "keyboard_row<1>" LOC = "L4"; # Signal name = KP6
+NET "keyboard_row<2>" LOC = "K1"; # Signal name = KP7
+NET "keyboard_row<3>" LOC = "K2"; # Signal name = KP8
+
+# Input devices
+
+## DIP switch
+
+NET "dip<0>" LOC = "T1"; # Signal name = DIP_00
+NET "dip<1>" LOC = "P2"; # Signal name = DIP_01
+NET "dip<2>" LOC = "P1"; # Signal name = DIP_02
+NET "dip<3>" LOC = "N2"; # Signal name = DIP_03
+NET "dip<4>" LOC = "N1"; # Signal name = DIP_04
+NET "dip<5>" LOC = "M3"; # Signal name = DIP_05
+NET "dip<6>" LOC = "M1"; # Signal name = DIP_06
+NET "dip<7>" LOC = "L2"; # Signal name = DIP_07
+
+## Push-button
+
+NET "pushbutton<0>" LOC = "N3"; # Signal name = PB0
+NET "pushbutton<1>" LOC = "P4"; # Signal name = PB1
+NET "pushbutton<2>" LOC = "P3"; # Signal name = PB2
+NET "pushbutton<3>" LOC = "L6"; # Signal name = PB3
+NET "pushbutton<4>" LOC = "M5"; # Signal name = PB4
+NET "pushbutton<5>" LOC = "U2"; # Signal name = PB5
+NET "pushbutton<6>" LOC = "U1"; # Signal name = PB6
+NET "pushbutton<7>" LOC = "T2"; # Signal name = PB7
+
+## Keyboard
+
+NET "keyboard_col<0>" LOC = "H1"; # Signal name = KP1
+NET "keyboard_col<1>" LOC = "H2"; # Signal name = KP2
+NET "keyboard_col<2>" LOC = "J1"; # Signal name = KP3
+NET "keyboard_col<3>" LOC = "J3"; # Signal name = KP4
+
+# Clock
+
+NET "clk" LOC = "R10"; # Signal name = FPGA_CLK0
