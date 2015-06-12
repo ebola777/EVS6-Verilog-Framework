@@ -159,7 +159,7 @@ module top (
 
    assign audio_bck = clk_audio_bit;
    assign audio_clk = clk_audio_sys;
-   assign audio_appsel = 0;
+   assign audio_appsel = 1;
 
    /*
     * Pushbutton (Input)

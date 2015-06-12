@@ -47,7 +47,9 @@
 `define LCD_ROW_COUNT_BIT_WIDTH 6
 
 // Audio
-`define AUDIO_BIT_WIDTH_VOLUME 6
+`define AUDIO_BIT_WIDTH_DATA 8
+
+`define AUDIO_BIT_DEPTH 3
 
 // Keyboard
 `define KEYBOARD_COL_COUNT 4

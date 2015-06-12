@@ -11,27 +11,27 @@
 `define AMPLITUDE_MAX 31
 
 // Piano frequency cycle times
-// Subscript[f, s] := 21929.8;
+// Subscript[f, s] := 19531.3;
 // Freq[n_] := 2^((n - 49)/12)*440;
 // Round[Subscript[f, s]/N[Freq[{40, 42, 44, 45, 47, 49, 51}]]]
 // Round[Subscript[f, s]/N[Freq[{52, 54, 56, 57, 59, 61, 63}]]]
 // Round[Subscript[f, s]/N[Freq[{64, 66}]]]
-`define CYCLE_TIME_C4 84
-`define CYCLE_TIME_D4 75
-`define CYCLE_TIME_E4 67
-`define CYCLE_TIME_F4 63
-`define CYCLE_TIME_G4 56
-`define CYCLE_TIME_A4 50
-`define CYCLE_TIME_B4 44
-`define CYCLE_TIME_C5 42
-`define CYCLE_TIME_D5 37
-`define CYCLE_TIME_E5 33
-`define CYCLE_TIME_F5 31
-`define CYCLE_TIME_G5 28
-`define CYCLE_TIME_A5 25
-`define CYCLE_TIME_B5 22
-`define CYCLE_TIME_C6 21
-`define CYCLE_TIME_D6 19
+`define CYCLE_TIME_C4 75
+`define CYCLE_TIME_D4 67
+`define CYCLE_TIME_E4 59
+`define CYCLE_TIME_F4 56
+`define CYCLE_TIME_G4 50
+`define CYCLE_TIME_A4 44
+`define CYCLE_TIME_B4 40
+`define CYCLE_TIME_C5 37
+`define CYCLE_TIME_D5 33
+`define CYCLE_TIME_E5 30
+`define CYCLE_TIME_F5 28
+`define CYCLE_TIME_G5 25
+`define CYCLE_TIME_A5 22
+`define CYCLE_TIME_B5 20
+`define CYCLE_TIME_C6 19
+`define CYCLE_TIME_D6 17
 
 // Max piano frequency cycle time bit width
 `define CYCLE_TIME_MAX_BIT_WIDTH $clog2(`CYCLE_TIME_C4)

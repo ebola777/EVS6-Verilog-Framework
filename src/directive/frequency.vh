@@ -28,26 +28,25 @@
 // Ceiling[Log[2, %]]
 `define FREQUENCY_DIV_HALF_FSD_DIGIT_BIT_WIDTH 17
 
-// N[Solve[2*2/(4*10^7) == 1/(512*x), {x}][[1, 1, 2]]]
-// N[Reduce[x*2/(4*10^7) >= (44 * 10^-9) &&
+// Subscript[f, s] := N[Solve[4*2/(4*10^7) == 1/(256*x), {x}][[1, 1, 2]]]
+// N[Reduce[x*2/(4*10^7) >= (71 * 10^-9) &&
 //    x*2/(4*10^7) <= (488 * 10^-9), {x}]]
-// (System clock cycle time typ. 44 ns, f_sys = 512 * f_s)
-`define FREQUENCY_DIV_HALF_AUDIO_SYS 2
+// (System clock cycle time min 71 ns, max 488 ns, f_sys = 256 * f_s)
+`define FREQUENCY_DIV_HALF_AUDIO_SYS 4
 // Ceiling[Log[2, %]]
-`define FREQUENCY_DIV_HALF_AUDIO_SYS_BIT_WIDTH 1
+`define FREQUENCY_DIV_HALF_AUDIO_SYS_BIT_WIDTH 2
 
-// N[Solve[x*2/(4*10^7) == 1/21929.8/2/8, {x}][[1, 1, 2]]]
-// N[Reduce[x*2/(4*10^7) >= 1/(64*21929.8), {x}]]
-// Subscript[f, s] := 21929.8
-// (21929.8 Hz, approx. 22.05 kHz, 2 channels, 8 bit data, f_bck <= 64 * f_s)
-`define FREQUENCY_DIV_HALF_AUDIO_BIT 57
+// N[Solve[x*2/(4*10^7) == 1/19531.3/2/8, {x}][[1, 1, 2]]]
+// N[Reduce[x*2/(4*10^7) >= 1/(64*19531.3), {x}]]
+// (19531.3 Hz, approx. 22.05 kHz, 2 channels, 8 bit data, f_bck <= 64 * f_s)
+`define FREQUENCY_DIV_HALF_AUDIO_BIT 64
 // Ceiling[Log[2, %]]
 `define FREQUENCY_DIV_HALF_AUDIO_BIT_BIT_WIDTH 6
 
-// N[Solve[x*2/(4*10^7) == 1/21929.8/2, {x}][[1, 1, 2]]]
-// (21929.8 Hz, 2 channels)
+// N[Solve[x*2/(4*10^7) == 1/19531.3/2, {x}][[1, 1, 2]]]
+// (19531.3 Hz, 2 channels)
 // (Audio bit frequency multiplied by 8)
-`define FREQUENCY_DIV_HALF_AUDIO_VOL 456
+`define FREQUENCY_DIV_HALF_AUDIO_VOL 512
 // Ceiling[Log[2, %]]
 `define FREQUENCY_DIV_HALF_AUDIO_VOL_BIT_WIDTH 9
 

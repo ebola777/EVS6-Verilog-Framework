@@ -6,7 +6,7 @@
 // Sample data file
 `define SAMPLE_FILE "../../data/c4_click.bin"
 // Sample data count
-`define SAMPLE_COUNT 6210
+`define SAMPLE_COUNT 5532
 // Sample data count bit width
 `define SAMPLE_COUNT_BIT_WIDTH $clog2(`SAMPLE_COUNT)
 
