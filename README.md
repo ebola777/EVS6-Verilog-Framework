@@ -21,6 +21,8 @@ Example top module is included.
 
 ## Board
 
+Tested using EVS6 v1.0 and v1.1.
+
 EVS6 board is a product by Industrial Technology Research Institute.
 
 ## FPGA
